@@ -4,6 +4,7 @@
    - The token will be validated every time user wants to access the test page
    - If the token is expired, the refresh token will be authenticated on the refresh page to generate a new token and refresh-token
 ## How to run 
+   - The user_db.sql file should be downloaded and imported in MySQL Workbench
    - In application.yml file, MySQL server, username, and password should be change to match with your local
 ## Postman
 ### Token
